@@ -1,0 +1,42 @@
+fi
+echo "triangle is right angled"
+then
+if [ `expr $a \* $a + $b \* $b ` -eq `expr $c \* $c` ]
+fi
+exit 1
+echo "triangle is isoleses"
+then 
+if [ $a -eq $b -o $b -eq $c -o $c -eq $a ]
+fi
+exit 1
+echo "triangle is equilatoral"
+then
+if [ $a -eq $b -a $b -eq $c -a $c -eq $a ]
+fi
+exit 1
+echo " triangle cannot be formed"
+else
+echo "triangle can be formed"
+then 
+if [ `expr $a + $b` -gt $c ]
+fi
+c=$max
+b=$c
+max=$b
+then
+if [ $b -gt $c ]
+fi
+c=$max
+a=$c
+max=$a
+then 
+if [ $a -gt $c ]
+c=$3
+b=$2
+a=$1
+
+fi
+exit 1
+then echo "syntax is <$0>,<$1>,<$2>,<$3>"
+if [ $# -ne 3 ]
+#check triangle sides 
