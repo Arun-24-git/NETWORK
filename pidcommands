@@ -1,0 +1,8 @@
+run this code too get last optins
+touch testfile5 testfile6 testfile7
+chmod 777 testfile5   # rwxrwxrwx (UGO writable & executable)
+chmod 111 testfile6   # --x--x--x (UGO executable)
+chmod 700 testfile7   # rwx------ (owner has rwx)
+
+code to make special file
+ksb@ksb-H410M-S2-V2:~/ARUNJITH/NETWORK/PID$ mkfifo  filename_any
